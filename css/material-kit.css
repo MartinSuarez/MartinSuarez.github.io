@@ -142,7 +142,7 @@ a .material-icons, a:hover .material-icons, a:focus .material-icons {
 .navbar .navbar-nav > li > a.btn.btn-default.dropdown-toggle, .open >
 .navbar .navbar-nav > li > a.btn.btn-default.dropdown-toggle:focus, .open >
 .navbar .navbar-nav > li > a.btn.btn-default.dropdown-toggle:hover {
-  background-color: #A7A37E;
+  background-color: #FFB03B
   color: #FFFFFF;
 }
 .btn:focus, .btn:active, .btn:hover, .btn.btn-default:focus, .btn.btn-default:active, .btn.btn-default:hover,
@@ -209,7 +209,7 @@ a .material-icons, a:hover .material-icons, a:focus .material-icons {
 .navbar .navbar-nav > li > a.btn.btn-simple,
 .navbar .navbar-nav > li > a.btn.btn-default.btn-simple {
   background-color: transparent;
-  color: #A7A37E;
+  color: #FFB03B
   box-shadow: none;
 }
 .btn.btn-simple:hover, .btn.btn-simple:focus, .btn.btn-simple:active, .btn.btn-default.btn-simple:hover, .btn.btn-default.btn-simple:focus, .btn.btn-default.btn-simple:active,
@@ -220,7 +220,7 @@ a .material-icons, a:hover .material-icons, a:focus .material-icons {
 .navbar .navbar-nav > li > a.btn.btn-default.btn-simple:focus,
 .navbar .navbar-nav > li > a.btn.btn-default.btn-simple:active {
   background-color: transparent;
-  color: #A7A37E;
+  color: #FFB03B
 }
 .btn.btn-primary,
 .navbar .navbar-nav > li > a.btn.btn-primary {
@@ -623,7 +623,7 @@ a .material-icons, a:hover .material-icons, a:focus .material-icons {
 .navbar .navbar-nav > li > a.btn.btn-white:focus,
 .navbar .navbar-nav > li > a.btn.btn-white:hover {
   background-color: #FFFFFF;
-  color: #A7A37E;
+  color: #FFB03B
 }
 .btn.btn-white.btn-simple,
 .navbar .navbar-nav > li > a.btn.btn-white.btn-simple {
@@ -1804,7 +1804,7 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
   min-width: 30px;
   height: 30px;
   line-height: 30px;
-  color: #A7A37E;
+  color: #FFB03B
   font-weight: 400;
   font-size: 12px;
   text-transform: uppercase;
@@ -1813,11 +1813,11 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
 .pagination > li > a:hover, .pagination > li > a:focus,
 .pagination > li > span:hover,
 .pagination > li > span:focus {
-  color: #A7A37E;
+  color: #FFB03B
 }
 .pagination > .active > a,
 .pagination > .active > span {
-  color: #A7A37E;
+  color: #FFB03B
 }
 .pagination > .active > a, .pagination > .active > a:focus, .pagination > .active > a:hover,
 .pagination > .active > span,
@@ -1868,7 +1868,7 @@ select.form-control[multiple], .form-group.is-focused select.form-control[multip
   font-size: 10px;
 }
 .label.label-default {
-  background-color: #A7A37E;
+  background-color: #FFB03B
 }
 
 .nav-pills > li > a {
@@ -2423,7 +2423,7 @@ legend {
   padding: 70px 0 30px;
 }
 .info .icon {
-  color: #A7A37E;
+  color: #FFB03B
 }
 .info .icon > i {
   font-size: 4.4em;
@@ -2433,7 +2433,7 @@ legend {
   margin: 30px 0 15px;
 }
 .info p {
-  color: #A7A37E;
+  color: #FFB03B
 }
 
 .icon.icon-primary {
@@ -2640,7 +2640,7 @@ h2.title {
 .description,
 .card-description,
 .footer-big p {
-  color: #A7A37E;
+  color: #FFB03B
 }
 
 .text-warning {
@@ -3373,7 +3373,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
 }
 .datepicker td.old,
 .datepicker td.new {
-  color: #A7A37E;
+  color: #FFB03B
   border-top: 0;
 }
 .datepicker td.active p,
@@ -3415,7 +3415,7 @@ input[type="file"] > input[type="button"]::-moz-focus-inner {
   border-radius: 4px;
 }
 .datepicker span.old {
-  color: #A7A37E;
+  color: #FFB03B
 }
 .datepicker span.active, .datepicker span.active:focus, .datepicker span.active:hover, .datepicker span.active:active {
   background-color: #046380;
@@ -3566,7 +3566,7 @@ h2.title {
 }
 
 .description {
-  color: #A7A37E;
+  color: #FFB03B
 }
 
 .header-filter {
