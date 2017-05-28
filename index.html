@@ -1,219 +1,216 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<!--Import Google Icon Font-->
-<link href="http://fonts.googleapis.com/icon?family=Material+Icons"
-	rel="stylesheet">
-<!--Import materialize.css-->
-<link type="text/css" rel="stylesheet" href="css/materialize.min.css"
-	media="screen,projection" />
+	<meta charset="utf-8" />
+	<link rel="apple-touch-icon" sizes="76x76" href="../assets/img/apple-icon.png">
+	<link rel="icon" type="image/png" href="../assets/img/favicon.png">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-<!--Let browser know website is optimized for mobile-->
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Profile Page - Material Kit by Creative Tim</title>
+
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+
+	<!--     Fonts and icons     -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+
+	<!-- CSS Files -->
+    <link href="../assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="../assets/css/material-kit.css" rel="stylesheet"/>
+
 </head>
 
-<body>
-	<header>
-		<div class="container">
-			<a href="#" data-activates="nav-mobile"
-				class="button-collapse top-nav waves-effect waves-light circle hide-on-large-only"><i
-				class="material-icons">menu</i></a>
-		</div>
-		<ul id="nav-mobile" class="side-nav fixed">
-			<li><div class="userView">
-					<div class="background">
-						<img src="img/fondo.jpg" class="responsive-img">
-					</div>
-					<a href="#!user"><img class="circle z-hepth-5"
-						src="img/martin.jpg"></a> <a href="#!name"><span
-						class="white-text name">Martín Suárez</span></a> <a href="#!email"><span
-						class="white-text email">ssuarezb13@unc.edu.pe</span></a>
-				</div></li>
-			<li class="bold"><a href="about.html"
-				class="waves-effect waves-teal">About</a></li>
-			<li class="bold active"><a href="getting-started.html"
-				class="waves-effect waves-teal">Getting Started</a></li>
-			<li class="no-padding">
-				<ul class="collapsible collapsible-accordion">
-					<li class="bold"><a
-						class="collapsible-header  waves-effect waves-teal">CSS</a>
-						<div class="collapsible-body">
-							<ul>
-								<li><a href="color.html">Color</a></li>
-								<li><a href="grid.html">Grid</a></li>
-								<li><a href="helpers.html">Helpers</a></li>
-								<li><a href="media-css.html">Media</a></li>
-								<li><a href="pulse.html">Pulse</a></li>
-								<li><a href="sass.html">Sass</a></li>
-								<li><a href="shadow.html">Shadow</a></li>
-								<li><a href="table.html">Table</a></li>
-								<li><a href="css-transitions.html">Transitions</a></li>
-								<li><a href="typography.html">Typography</a></li>
-							</ul>
-						</div></li>
+<body class="profile-page">
+	<nav class="navbar navbar-transparent navbar-fixed-top navbar-color-on-scroll">
+    	<div class="container">
+        	<!-- Brand and toggle get grouped for better mobile display -->
+        	<div class="navbar-header">
+        		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example">
+            		<span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+        		</button>
+        		<a class="navbar-brand" href="http://www.creative-tim.com">Creative Tim</a>
+        	</div>
 
+        	<div class="collapse navbar-collapse" id="navigation-example">
+        		<ul class="nav navbar-nav navbar-right">
+					<li>
+    					<a href="../components-documentation.html" target="_blank">
+    						Components
+    					</a>
+    				</li>
+    				<li>
+						<a href="http://demos.creative-tim.com/material-kit-pro/presentation.html?ref=utp-freebie" target="_blank">
+							<i class="material-icons">unarchive</i> Upgrade to PRO
+						</a>
+    				</li>
+		            <li>
+		                <a href="https://twitter.com/CreativeTim" target="_blank" class="btn btn-simple btn-white btn-just-icon">
+							<i class="fa fa-twitter"></i>
+						</a>
+		            </li>
+		            <li>
+		                <a href="https://www.facebook.com/CreativeTim" target="_blank" class="btn btn-simple btn-white btn-just-icon">
+							<i class="fa fa-facebook-square"></i>
+						</a>
+		            </li>
+					<li>
+		                <a href="https://www.instagram.com/CreativeTimOfficial" target="_blank" class="btn btn-simple btn-white btn-just-icon">
+							<i class="fa fa-instagram"></i>
+						</a>
+		            </li>
+        		</ul>
+        	</div>
+    	</div>
+    </nav>
 
-				</ul>
-			</li>
-			<li class="bold"><a href="http://materializecss.com/mobile.html"
-				class="waves-effect waves-teal">Mobile</a></li>
-			<li class="bold"><a href="showcase.html"
-				class="waves-effect waves-teal">Showcase</a></li>
-			<li class="bold"><a href="themes.html"
-				class="waves-effect waves-teal">Themes<span class="new badge"></span></a></li>
-		</ul>
-	</header>
+    <div class="wrapper">
+		<div class="header header-filter" style="background-image: url('../assets/img/examples/city.jpg');"></div>
 
-	<main>
-	<div class="section" id="index-banner">
-		<div class="container">
-			<div class="row">
-				<div class="col s12 m9">
-					<h1 class="header center-on-small-only">Getting Started</h1>
-					<h4 class="light red-text text-lighten-4 center-on-small-only">Learn
-						how to easily start using Materialize in your website.</h4>
-				</div>
-				<div class="col s12 m3">
-					<!-- BuySellAds Zone Code -->
-					<div class="buysellads-header center-on-small-only">
-						<!-- CarbonAds Zone Code -->
-						<script async type="text/javascript"
-							src="//cdn.carbonads.com/carbon.js?zoneid=1673&serve=C6AILKT&placement=materializecss"
-							id="_carbonads_js"></script>
-					</div>
-					<!-- End BuySellAds Zone Code -->
-				</div>
-			</div>
-		</div>
-	</div>
+		<div class="main main-raised">
+			<div class="profile-content">
+	            <div class="container">
+	                <div class="row">
+	                    <div class="profile">
+	                        <div class="avatar">
+	                            <img src="../assets/img/christian.jpg" alt="Circle Image" class="img-circle img-responsive img-raised">
+	                        </div>
+	                        <div class="name">
+	                            <h3 class="title">Christian Louboutin</h3>
+								<h6>Designer</h6>
+	                        </div>
+	                    </div>
+	                </div>
+	                <div class="description text-center">
+                        <p>An artist of considerable range, Chet Faker — the name taken by Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. </p>
+	                </div>
 
-	<div class="container">
-		<!--  Outer row  -->
-		<div class="row">
-
-			<div class="section col s12 m9 l10">
-				<div id="download" class="row scrollspy">
-					<h2 class="col s12 header">Download</h2>
-					<p class="caption col s12">Materialize comes in two different
-						forms. You can select which version you want depending on your
-						preference and expertise. To start using Materialize, all you have
-						to do is download one of the options below.</p>
-
-					<div class="col s12 m6">
-						<p class="promo-caption">Materialize</p>
-						<p>This is the standard version that comes with both the
-							minified and unminified CSS and JavaScript files. This option
-							requires little to no setup. Use this if you are unfamiliar with
-							Sass.</p>
-						<a id="download-source" class="btn waves-effect waves-light"
-							href="http://materializecss.com/bin/materialize-v0.98.2.zip">Materialize<i
-							class="material-icons right">file_download</i></a>
-					</div>
-					<div class="col s12 m6">
-						<p class="promo-caption">Sass</p>
-						<p>This version contains the source SCSS files. By choosing
-							this version you have more control over which components to
-							include. You will need a Sass compiler if you choose this option.</p>
-						<a id="download-sass" class="btn waves-effect waves-light"
-							href="http://materializecss.com/bin/materialize-src-v0.98.2.zip">Source<i
-							class="material-icons right">file_download</i></a>
-					</div>
-					<div class="col s12">
-						<br>
-						<p class="promo-caption">CDN</p>
-						<p>
-							You can find all the versions of the CDN at <a
-								href="https://cdnjs.com/libraries/materialize">cdnjs</a>.
-						</p>
-						<pre>
-							<code class="language-markup">
-  &lt;!-- Compiled and minified CSS -->
-  &lt;link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css">
-
-  &lt;!-- Compiled and minified JavaScript -->
-  &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js">&lt;/script>
-          </code>
-						</pre>
-					</div>
-					<div class="col s12">
-						<br>
-						<p class="promo-caption">NPM</p>
-						<p>You can also get the latest release using NPM. This release
-							contains source files as well as the compiled CSS and JavaScript
-							files.</p>
-						<pre>
-							<code class="language-bash">
-  npm install materialize-css
-          </code>
-						</pre>
-					</div>
-					<div class="col s12">
-						<br>
-						<p class="promo-caption">Bower</p>
-						<p>You can also get the latest release using bower. This
-							release contains source files as well as the compiled CSS and
-							JavaScript files.</p>
-						<pre>
-							<code class="language-bash">
-  bower install materialize
-          </code>
-						</pre>
-					</div>
-				</div>
-
-				<div id="download-thanks" class="row">
-					<h2 class="col s12 header">Thanks for Downloading!</h2>
-					<p class="caption col s12">We hope you find Materialize useful
-						in your next project. We would appreciate if you helped us spread
-						the word about Materialize on our Social Media. Also if you want
-						to support the development, you can donate to us.</p>
 					<div class="row">
-						<div class="col l3 s12 center">
-							<form action="https://www.paypal.com/cgi-bin/webscr"
-								method="post" target="_top">
-								<input type="hidden" name="cmd" value="_s-xclick"> <input
-									type="hidden" name="encrypted"
-									value="-----BEGIN PKCS7-----MIIHLwYJKoZIhvcNAQcEoIIHIDCCBxwCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYC2O5rnsmP26R+2wNew3Jc3rCzBzw8LpJh1TTRZyMIFMYv/voKC1TMEvxU0ct4gdsZ29zARE96gRsCPVtVpY1hGr0NivLXeiHyw3xoW9UfzjcI9gZy5PZYoNv2xkTMj+jUkzuBMDiB2JfrIH7ZNxbcK1m/ep7Luoo1CR8JmYNCtlzELMAkGBSsOAwIaBQAwgawGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQI/PHaKaPxsg2AgYh0FZUDlxXaZSGYZJiUkF4L0p9hZn0tYmT6kqOqB50541GOsZtJSVAO/F+Qz5I9EsCuGve7GLKSBufhNjWa24ay5T2hkGJkAzISlqS2qBQSFDDpHDyEnNSZ2vPG2K8Bepc/SQD5nurs+vyC55axU4OnG33RBEtAmdOrAlZGxwzDBSjg4us1epUyoIIDhzCCA4MwggLsoAMCAQICAQAwDQYJKoZIhvcNAQEFBQAwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMB4XDTA0MDIxMzEwMTMxNVoXDTM1MDIxMzEwMTMxNVowgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBR07d/ETMS1ycjtkpkvjXZe9k+6CieLuLsPumsJ7QC1odNz3sJiCbs2wC0nLE0uLGaEtXynIgRqIddYCHx88pb5HTXv4SZeuv0Rqq4+axW9PLAAATU8w04qqjaSXgbGLP3NmohqM6bV9kZZwZLR/klDaQGo1u9uDb9lr4Yn+rBQIDAQABo4HuMIHrMB0GA1UdDgQWBBSWn3y7xm8XvVk/UtcKG+wQ1mSUazCBuwYDVR0jBIGzMIGwgBSWn3y7xm8XvVk/UtcKG+wQ1mSUa6GBlKSBkTCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb22CAQAwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCBXzpWmoBa5e9fo6ujionW1hUhPkOBakTr3YCDjbYfvJEiv/2P+IobhOGJr85+XHhN0v4gUkEDI8r2/rNk1m0GA8HKddvTjyGw/XqXa+LSTlDYkqI8OwR8GEYj4efEtcRpRYBxV8KxAW93YDWzFGvruKnnLbDAF6VR5w/cCMn5hzGCAZowggGWAgEBMIGUMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbQIBADAJBgUrDgMCGgUAoF0wGAYJKoZIhvcNAQkDMQsGCSqGSIb3DQEHATAcBgkqhkiG9w0BCQUxDxcNMTQxMjE1MDcwNTI3WjAjBgkqhkiG9w0BCQQxFgQUTOnEae05+jEbHsz0um3L3/Cl/zgwDQYJKoZIhvcNAQEBBQAEgYAGuieIpSk7XCxyo4RieZQ/SO0EHUYEW9B7KFJB9qZ1+yCKpUm7prwsGGOJAAdqKOw59I7qjLQI5cFJz/O8Ivb14TclAZiKTnOCB/wO1QHp+9s+hF00D6v0TDetLm0GLnk/7ljWvNq1pTyiMTLVg4yw1dAzQE1tC6bYTtLuDhLl0Q==-----END PKCS7-----
-            ">
-								<button class="btn waves-effect waves-light red lighten-3"
-									type="submit" name="action"
-									alt="PayPal - The safer, easier way to pay online!">Donate
-									Now</button>
-							</form>
-							<br>
-						</div>
-						<div class="col l3 s12 center" style="overflow: hidden;">
-							<iframe
-								src="http://ghbtns.com/github-btn.html?user=dogfalo&repo=materialize&type=watch&count=true&size=large"
-								allowtransparency="true" frameborder="0" scrolling="0"
-								width="170" height="30"></iframe>
-							<br>
-						</div>
-						<div class="col l3 s12 center" style="overflow: hidden;">
-							<a href="https://twitter.com/MaterializeCSS"
-								class="twitter-follow-button" data-show-count="true"
-								data-size="large" data-dnt="true">Follow @MaterializeCSS</a> <br>
-						</div>
-						<div class="col l3 s12 center" style="overflow: hidden;">
-							<div class="g-follow" data-annotation="bubble" data-height="24"
-								data-href="https://plus.google.com/108619793845925798422"
-								data-rel="publisher"></div>
-							<br>
-						</div>
-					</div>
-				</div>
+						<div class="col-md-6 col-md-offset-3">
+							<div class="profile-tabs">
+			                    <div class="nav-align-center">
+									<ul class="nav nav-pills" role="tablist">
+										<li class="active">
+											<a href="#studio" role="tab" data-toggle="tab">
+												<i class="material-icons">camera</i>
+												Studio
+											</a>
+										</li>
+										<li>
+				                            <a href="#work" role="tab" data-toggle="tab">
+												<i class="material-icons">palette</i>
+												Work
+				                            </a>
+				                        </li>
+				                        <li>
+				                            <a href="#shows" role="tab" data-toggle="tab">
+												<i class="material-icons">favorite</i>
+				                                Favorite
+				                            </a>
+				                        </li>
+				                    </ul>
 
+				                    <div class="tab-content gallery">
+										<div class="tab-pane active" id="studio">
+				                            <div class="row">
+												<div class="col-md-6">
+													<img src="../assets/img/examples/chris1.jpg" class="img-rounded" />
+													<img src="../assets/img/examples/chris0.jpg" class="img-rounded" />
+												</div>
+												<div class="col-md-6">
+													<img src="../assets/img/examples/chris3.jpg" class="img-rounded" />
+													<img src="../assets/img/examples/chris4.jpg" class="img-rounded" />
+												</div>
+				                            </div>
+				                        </div>
+				                        <div class="tab-pane text-center" id="work">
+											<div class="row">
+												<div class="col-md-6">
+													<img src="../assets/img/examples/chris5.jpg" class="img-rounded" />
+													<img src="../assets/img/examples/chris7.jpg" class="img-rounded" />
+													<img src="../assets/img/examples/chris9.jpg" class="img-rounded" />
+												</div>
+												<div class="col-md-6">
+													<img src="../assets/img/examples/chris6.jpg" class="img-rounded" />
+													<img src="../assets/img/examples/chris8.jpg" class="img-rounded" />
+												</div>
+											</div>
+				                        </div>
+										<div class="tab-pane text-center" id="shows">
+											<div class="row">
+												<div class="col-md-6">
+													<img src="../assets/img/examples/chris4.jpg" class="img-rounded" />
+													<img src="../assets/img/examples/chris6.jpg" class="img-rounded" />
+												</div>
+												<div class="col-md-6">
+													<img src="../assets/img/examples/chris7.jpg" class="img-rounded" />
+													<img src="../assets/img/examples/chris5.jpg" class="img-rounded" />
+													<img src="../assets/img/examples/chris9.jpg" class="img-rounded" />
+												</div>
+											</div>
+				                        </div>
+
+				                    </div>
+								</div>
+							</div>
+							<!-- End Profile Tabs -->
+						</div>
+	                </div>
+
+	            </div>
+	        </div>
 		</div>
-	</div>
-	</div>
 
-	</main>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <nav class="pull-left">
+				<ul>
+					<li>
+						<a href="http://www.creative-tim.com">
+							Creative Tim
+						</a>
+					</li>
+					<li>
+						<a href="http://presentation.creative-tim.com">
+						   About Us
+						</a>
+					</li>
+					<li>
+						<a href="http://blog.creative-tim.com">
+						   Blog
+						</a>
+					</li>
+					<li>
+						<a href="http://www.creative-tim.com/license">
+							Licenses
+						</a>
+					</li>
+				</ul>
+            </nav>
+            <div class="copyright pull-right">
+                &copy; 2016, made with <i class="fa fa-heart heart"></i> by Creative Tim
+            </div>
+        </div>
+    </footer>
 
-	<!--Import jQuery before materialize.js-->
-	<script type="text/javascript"
-		src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-	<script type="text/javascript" src="js/materialize.min.js"></script>
 
 </body>
+	<!--   Core JS Files   -->
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+	<script src="js/bootstrap.min.js" type="text/javascript"></script>
+	<script src="js/material.min.js"></script>
+
+	<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+	<script src="js/nouislider.min.js" type="text/javascript"></script>
+
+	<!--  Plugin for the Datepicker, full documentation here: http://www.eyecon.ro/bootstrap-datepicker/ -->
+	<script src="js/bootstrap-datepicker.js" type="text/javascript"></script>
+
+	<!-- Control Center for Material Kit: activating the ripples, parallax effects, scripts from the example pages etc -->
+	<script src="js/material-kit.js" type="text/javascript"></script>
+
 </html>
