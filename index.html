@@ -449,8 +449,10 @@
 		var marker = new google.maps.Marker({
 			position : myCenter,
 			animation:google.maps.Animation.BOUNCE,
-			 icon:'img/person_pin_circle.png',
-			 content:"Martín Suárez!"
+			icon:'img/person_pin_circle.png'
+				var infowindow = new google.maps.InfoWindow({
+				    content: "Martín Suárez!"
+				  });
 		});
 		marker.setMap(map);
 	}
